@@ -1,0 +1,32 @@
+<style type="text/css">
+.profile {
+	max-width: 50px;
+}
+</style>
+<h1>Mostafa Menessy</h1>
+<hr>
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="profile media-object" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/c3.0.160.160/p160x160/1780849_10152079058564965_180553920_n.jpg">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Ismail Makhlouf</h4>
+    What's up, man? Are you done with the software engineering prototype!?
+  </div>
+</div>
+{{#each chat}}
+<hr>
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="profile media-object" src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/t1.0-1/c6.0.160.160/p160x160/1904108_10152010731916200_1833817899_n.jpg">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading">Yehia Abo El-Nga</h4>
+    {{this}}
+  </div>
+</div>
+{{/each}}
+<hr>
+<div>
+	<input id="txt" class='form-control' placeholder='Enter your message ...'>
+</div>

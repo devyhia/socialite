@@ -1,0 +1,75 @@
+<h1 class="page-header">Identities
+<div class='pull-right'>
+	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  New Identity
+	</button>
+</div>
+</h1>
+
+<div class="row">
+<div class='col-xs-12'>
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Username</th>
+      <th>Type</th>
+      <th>Followers</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Devyhia</td>
+      <td>Fictitious</td>
+      <td>79</td>
+    </tr>
+    <tr>
+      <td>Mania</td>
+      <td>Transient-Fictitious</td>
+      <td>1,228</td>
+    </tr>
+    <tr>
+      <td>Alex</td>
+      <td>Real</td>
+      <td>43</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">New Identity</h4>
+      </div>
+      <div class="modal-body">
+        <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Type</label>
+    <div class="col-sm-10">
+      <select class='form-control'>
+      	<option>Fictitious</option>
+      	<option>Transient-Fictitious</option>
+      	<option>Partial</option>
+      	<option>Real</option>
+      </select>
+    </div>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
